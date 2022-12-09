@@ -4,7 +4,7 @@
 SRC="sources" && [[ ! -d ${SRC} ]] && mkdir ${SRC}
 # CID="${CIDdir}/User-ID" && [[ ! -e ${CID} ]] && echo > ${CID}
 [[ $(dpkg --get-selections|grep -w "jq"|head -1) ]] || apt-get install jq -y &>/dev/null
-#[[ ! -e "/bin/ShellBot.sh" ]] && wget -O /bin/ShellBot.sh https://raw.githubusercontent.com/rudi9999/TeleBotGen/master/ShellBot.sh &> /dev/null
+#[[ ! -e "/bin/ShellBot.sh" ]] && wget -O /bin/ShellBot.sh https://raw.githubusercontent.com/cerberus9116/Chu/master/BOT/sources/ShellBot.sh &> /dev/null
 [[ -e /etc/texto-bot ]] && rm /etc/texto-bot
 LINE="==========================="
 
