@@ -315,7 +315,7 @@ echo -e "Key Activa $(printf '%(%D-%H:%M:%S)T')  \n\n 💥 $keyfinal  💥"
 msg -bar
 echo -e "Instalador Oficial"
 msg -bar
-echo -e "wget -q https://www.dropbox.com/s/i87udxpj1lj17sa/instala.sh; chmod +x instala.sh;./instala.sh \n"
+echo -e "wget -q https://raw.githubusercontent.com/cerberus9116/Chu/master/BOT/gerador/instalar.sh; chmod +x instala.sh;./instala.sh \n"
 msg -bar
 echo -e " 🧬 Soporte : Ubuntu 14.04 - 16.04 - 20.04\n"
 echo -e "Verificada, https://t.me/ChumoGH Reseller : $vkey\n"
@@ -558,7 +558,7 @@ if [[ $1 = 1 ]]; then
 msg -bar
 echo -e "\033[7;49;35m             LINKS INSTALL SCRIPT ChumoGH             "
 msg -bar
-echo -e "\033[1;37mwget -q https://www.dropbox.com/s/i87udxpj1lj17sa/instala.sh; chmod +x instala.sh;./instala.sh"
+echo -e "\033[1;37mwget -q https://raw.githubusercontent.com/cerberus9116/Chu/master/BOT/gerador/instalar.sh; chmod +x instala.sh;./instala.sh"
 msg -bar
 [[ $2 = 1 ]] && echo -ne "\033[1;37m Enter para Finalizar"
 [[ $2 = 1 ]] && read foo
